@@ -266,69 +266,69 @@ IMPORTANT: Your answers, when relating to information from connected sources, mu
 
 ### State Flags (92 flags)
 
-✅ `is_device_based`
-✅ `is_user_in_experiment`
-✅ `is_experiment_active`
-✅ `is_in_layer`
-✅ `is_memory_undo_enabled`
-✅ `is_starter_prompt_popular`
-✅ `is_starter_prompt_top_performer`
-✅ `is_starter_prompt_back_and_forth`
-✅ `is_starter_prompt_enabled_for_new_users_only`
-✅ `is_guided_onboarding`
-✅ `is_static_onboarding`
-✅ `is_prompt_onboarding`
-✅ `is_enabled`
-✅ `is_voice_mode_entry_point_enabled`
-✅ `is_team_enabled`
+- ✅ `is_device_based`
+- ✅ `is_user_in_experiment`
+- ✅ `is_experiment_active`
+- ✅ `is_in_layer`
+- ✅ `is_memory_undo_enabled`
+- ✅ `is_starter_prompt_popular`
+- ✅ `is_starter_prompt_top_performer`
+- ✅ `is_starter_prompt_back_and_forth`
+- ✅ `is_starter_prompt_enabled_for_new_users_only`
+- ✅ `is_guided_onboarding`
+- ✅ `is_static_onboarding`
+- ✅ `is_prompt_onboarding`
+- ✅ `is_enabled`
+- ✅ `is_voice_mode_entry_point_enabled`
+- ✅ `is_team_enabled`
 *... and 77 more state flags flags*
 
 ### Capability Flags (6 flags)
 
-✅ `can_see_system_hint_announcement`
-✅ `has_sidekick_access`
-✅ `can_download_sidetron`
-✅ `sign_up_button_has_the_word_free`
-✅ `has_updates`
-✅ `has_logged_in_before`
+- ✅ `can_see_system_hint_announcement`
+- ✅ `has_sidekick_access`
+- ✅ `can_download_sidetron`
+- ✅ `sign_up_button_has_the_word_free`
+- ✅ `has_updates`
+- ✅ `has_logged_in_before`
 
 ### Behavior Flags (21 flags)
 
-✅ `use_freshness_scoring_profile`
-✅ `use_relevance_lmp`
-✅ `use_light_weight_scoring_for_slurm_tenants`
-✅ `should_use_new_ui`
-✅ `use_broad_rate_limit_language`
-✅ `use_starter_prompt_help_how_to`
-✅ `use_dynamic_response`
-✅ `use_chip_style_citations`
-✅ `use_plus_rl_during_onboarding`
-✅ `use_email_otp`
-✅ `use_new_phone_ui`
-✅ `use_formatted_national_number`
-✅ `use_dalle_preview`
-✅ `use_separate_incorrect_password_error_message`
-✅ `use_authapi_password_connection_type`
-*... and 6 more behavior flags flags*
+- ✅ `use_freshness_scoring_profile`
+- ✅ `use_relevance_lmp`
+- ✅ `use_light_weight_scoring_for_slurm_tenants`
+- ✅ `should_use_new_ui`
+- ✅ `use_broad_rate_limit_language`
+- ✅ `use_starter_prompt_help_how_to`
+- ✅ `use_dynamic_response`
+- ✅ `use_chip_style_citations`
+- ✅ `use_plus_rl_during_onboarding`
+- ✅ `use_email_otp`
+- ✅ `use_new_phone_ui`
+- ✅ `use_formatted_national_number`
+- ✅ `use_dalle_preview`
+- ✅ `use_separate_incorrect_password_error_message`
+- ✅ `use_authapi_password_connection_type`
+-  and 6 more behavior flags flags*
 
 ### Enablement Flags (48 flags)
 
-✅ `enable_mclick_urls`
-✅ `enable_dynamic_prompt`
-✅ `enable_style_addendum`
-✅ `enable_query_intent`
-✅ `enable_mclick_dates`
-✅ `enable_source_filtering`
-✅ `enable_mimetype_filtering`
-✅ `enable_new_onboarding_flow`
-✅ `enable_o3_mini_retrieval`
-✅ `enable_reason_by_default`
-✅ `enable_slash_commands`
-✅ `enable_rich_text_composer`
-✅ `enable_arch_updates`
-✅ `enable_v2_cleanup`
-✅ `enable_mobile_app_upsell_banner`
-*... and 33 more enablement flags flags*
+- ✅ `enable_mclick_urls`
+- ✅ `enable_dynamic_prompt`
+- ✅ `enable_style_addendum`
+- ✅ `enable_query_intent`
+- ✅ `enable_mclick_dates`
+- ✅ `enable_source_filtering`
+- ✅ `enable_mimetype_filtering`
+- ✅ `enable_new_onboarding_flow`
+- ✅ `enable_o3_mini_retrieval`
+- ✅ `enable_reason_by_default`
+- ✅ `enable_slash_commands`
+- ✅ `enable_rich_text_composer`
+- ✅ `enable_arch_updates`
+- ✅ `enable_v2_cleanup`
+- ✅ `enable_mobile_app_upsell_banner`
+- *... and 33 more enablement flags flags*
 
 ### Conditional Flags (13 flags)
 
@@ -383,69 +383,69 @@ IMPORTANT: Your answers, when relating to information from connected sources, mu
 
 ## ⚡ Performance Settings (30 total)
 
-**history_results_limit**: `6`
+- **history_results_limit**: `6`
 
-**local_results_limit**: `2`
+- **local_results_limit**: `2`
 
-**ca_admin_enabled**: `ca_enabled`
+- **ca_admin_enabled**: `ca_enabled`
 
-**max_file_size_mb**: `25`
+- **max_file_size_mb**: `25`
   *25MB file size limit*
 
-**max_attempts**: `4`
+- **max_attempts**: `4`
 
-**max_bytes**: `31457280`
+- **max_bytes**: `31457280`
   *31,457,280 bytes = 30.0MB*
 
-**voice-status-cache-ttl-ms**: `540000`
+- **voice-status-cache-ttl-ms**: `540000`
   *540000ms = 540.0 seconds*
 
-**enable-cache-for-gpts**: `enable-cache-for-new-users`
+- **enable-cache-for-gpts**: `enable-cache-for-new-users`
 
-**enable-cache-for-new-users**: `new-user-within-past-days`
+- **enable-cache-for-new-users**: `new-user-within-past-days`
 
-**enable-cache-if-mic-granted**: `[]`
+- **enable-cache-if-mic-granted**: `[]`
 
-**MIN_RETRY_INTERVAL**: `300`
+- **MIN_RETRY_INTERVAL**: `300`
 
-**MAX_RETRY_INTERVAL**: `5000`
+- **MAX_RETRY_INTERVAL**: `5000`
 
-**RETRY_FACTOR**: `1.5`
+- **RETRY_FACTOR**: `1.5`
 
-**MAX_RETRY_COUNT**: `12`
+- **MAX_RETRY_COUNT**: `12`
 
-**default_interval**: `3`
+- **default_interval**: `3`
 
-**default_max_polling_duration**: `120`
+- **default_max_polling_duration**: `120`
 
-**model_slug_intervals**: `{'_1501': 1502, '_1503': 1504}`
+- **model_slug_intervals**: `{'_1501': 1502, '_1503': 1504}`
 
-**model_slug_max_polling_durations**: `{'_1507': 1508, '_1509': 1508, '_1503': 1510}`
+- **model_slug_max_polling_durations**: `{'_1507': 1508, '_1509': 1508, '_1503': 1510}`
 
-**summarizer_chunk_char_limit**: `enable_o3_mini_retrieval`
+- **summarizer_chunk_char_limit**: `enable_o3_mini_retrieval`
 
-**custom_instr_message_timeout_duration**: `1500`
+- **custom_instr_message_timeout_duration**: `1500`
 
-**attachfile-rate-limit-message-variant**: `title_and_description`
+- **attachfile-rate-limit-message-variant**: `title_and_description`
 
-**attachfile-rate-limit-message-show-icon**: `fully-collapsed-tool-menu`
+- **attachfile-rate-limit-message-show-icon**: `fully-collapsed-tool-menu`
 
-**tatortot_contextual_upsell_shown_max_count**: `should_show_tatertot_nux`
+- **tatortot_contextual_upsell_shown_max_count**: `should_show_tatertot_nux`
 
-**name_char_limit**: `20`
+- **name_char_limit**: `20`
 
-**no_auth_soft_rate_limit**: `no_auth_hard_rate_limit`
+- **no_auth_soft_rate_limit**: `no_auth_hard_rate_limit`
 
-**no_auth_hard_rate_limit**: `should_show_no_auth_signup_banner`
+- **no_auth_hard_rate_limit**: `should_show_no_auth_signup_banner`
 
-**no_auth_banner_signup_rate_limit**: `composer_text`
+- **no_auth_banner_signup_rate_limit**: `composer_text`
 
-**inference_debounce_ms**: `200`
+- **inference_debounce_ms**: `200`
   *200ms = 0.2 seconds*
 
-**billing_failure_banner_interval_mins**: `1440`
+- **billing_failure_banner_interval_mins**: `1440`
 
-**animation_duration**: `700`
+- **animation_duration**: `700`
 
 ---
 
@@ -486,37 +486,37 @@ IMPORTANT: Your answers, when relating to information from connected sources, mu
 
 ## 🤖 Model Configurations (25 total)
 
-**reranker_model**: `ret-rr-skysight-v3`
-**allowed_models**: `[]`
-**gpt_4o**: `5`
-**o1_pro**: `1200`
-**o3_pro**: `600`
-**model**: `gpt-4o`
-**gpt-4o**: `[]`
-**model_talks_first**: `model_talks_first_kind`
-**model_talks_first_kind**: ``
-**model_talks_first_augment_system_prompt**: `is_starter_prompt_enabled_for_new_users_only`
-**override_o3_mini_to_high**: `enable_reason_by_default`
-**dalle**: `file_upload`
-**gpt_discovery_experiment_enabled**: `popular_at_my_workspace_enabled`
-**prefetch-models**: `sidebar-default-close`
-**in_dalle_preview_exp**: `[2098]`
-**chatGPT**: `in_login_web_branding_experiment`
-**show-model-picker**: `[2313]`
-**sahara_model_id_override**: `[]`
-**filter_prompt_by_model**: `headline_option`
-**chatgpt_anon_heading_enabled**: `anon_hide_model_header_dropdown`
-**gpt-4o-mini**: `category_tabs`
-**gpt_pgp_28_d_v2**: `[]`
-**filter_starter_prompt_by_model**: `autocomplete_qualified_start_date`
-**model_talks_option**: `enable_hardcoded_onboarding_prompt`
-**rq:["models",{"IIM":false,"isGizmo":false}]**: `['P', 3092]`
+- **reranker_model**: `ret-rr-skysight-v3`
+- **allowed_models**: `[]`
+- **gpt_4o**: `5`
+- **o1_pro**: `1200`
+- **o3_pro**: `600`
+- **model**: `gpt-4o`
+- **gpt-4o**: `[]`
+- **model_talks_first**: `model_talks_first_kind`
+- **model_talks_first_kind**: ``
+- **model_talks_first_augment_system_prompt**: `is_starter_prompt_enabled_for_new_users_only`
+- **override_o3_mini_to_high**: `enable_reason_by_default`
+- **dalle**: `file_upload`
+- **gpt_discovery_experiment_enabled**: `popular_at_my_workspace_enabled`
+- **prefetch-models**: `sidebar-default-close`
+- **in_dalle_preview_exp**: `[2098]`
+- **chatGPT**: `in_login_web_branding_experiment`
+- **show-model-picker**: `[2313]`
+- **sahara_model_id_override**: `[]`
+- **filter_prompt_by_model**: `headline_option`
+- **chatgpt_anon_heading_enabled**: `anon_hide_model_header_dropdown`
+- **gpt-4o-mini**: `category_tabs`
+- **gpt_pgp_28_d_v2**: `[]`
+- **filter_starter_prompt_by_model**: `autocomplete_qualified_start_date`
+- **model_talks_option**: `enable_hardcoded_onboarding_prompt`
+- **rq:["models",{"IIM":false,"isGizmo":false}]**: `['P', 3092]`
 
 ---
 
 ## 🔗 Connector Systems (41 total)
 
-✅ **metehan777@gmail.com**
+✅ **metehan777(gmail).com**
   - Index: 26
   - Status: Enabled
 
